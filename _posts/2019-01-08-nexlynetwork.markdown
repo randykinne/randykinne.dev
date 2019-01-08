@@ -12,7 +12,7 @@ projects: true
 hidden: true # don't count this post in blog pagination
 description: "Software Development for Nexly Network Game Server"
 category: project
-author: Randy Kinne
+author: randykinne
 externalLink: false
 ---
 
