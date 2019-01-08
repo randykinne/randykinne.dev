@@ -16,9 +16,8 @@ author: randykinne
 externalLink: false
 ---
 
- ### Nexly Network
 
- **Game server software written in kotlin that allows custom game experiences in Minecraft**
+ **Nexly Network - Game server software written in kotlin that allows custom game experiences in Minecraft**
 
 I started creating "plug-ins" for Minecraft servers back in 2014, and created my own server with these custom "plug-ins" in 2015. After the server experienced little success and I was having more fun in high school, I lost interest and stopped. Recently, I decided to get back in touch with some old contacts that had helped me along the way, and that's when I found out about Nexly.
 
