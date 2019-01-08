@@ -2,7 +2,10 @@
 title: "Nexly Network"
 layout: post
 date: 2019-01-07 10:40 PM
-tag: kotlin, java
+tag:
+- kotlin
+- java
+- minecraft
 image: https://randykinne.github.io/assets/images/nexlydark.png
 headerImage: true
 projects: true
