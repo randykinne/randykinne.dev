@@ -21,7 +21,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>Python - ***</li>
 	<li>MySQL/MongoDB - **</li>
 	<li>Linux - **</li>
-	<li>Git - *****</li>
+	<li>Git - ****</li>
 	<li>Dart - *</li>
 </ul>
 
