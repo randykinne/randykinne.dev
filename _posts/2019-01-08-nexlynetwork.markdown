@@ -16,7 +16,7 @@ author: randykinne
 externalLink: false
 ---
 
- # Nexly Network
+ ### Nexly Network
 
  **Game server software written in kotlin that allows custom game experiences in Minecraft**
 
