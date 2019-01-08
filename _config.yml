@@ -16,10 +16,10 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: randykinne.github.io
+url: https://randykinne.github.io
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+#permalink: /:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
