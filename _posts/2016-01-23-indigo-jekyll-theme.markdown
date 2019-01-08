@@ -1,15 +1,15 @@
 ---
-title: ":ramen: Indigo, minimalist jekyll theme"
+title: "Nexly Network"
 layout: post
-date: 2016-01-23 22:10
-tag: jekyll
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+date: 2019-01-07 10:40 PM
+tag: kotlin, java
+image: https://randykinne.github.io/assets/images/nexlydark.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "Software Development for Nexly Network Game Server"
 category: project
-author: johndoe
+author: Randy Kinne
 externalLink: false
 ---
 
@@ -19,17 +19,17 @@ Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokop
 
 ---
 
-What has inside?
+Skills utilized:
 
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- Kotlin
+- Java
+- ssh
+- Linux Administration
+- MySQL/MongoDB
+- Git
+- Continuous Integration
 
 ---
 
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
+[Check it out](http://nexly.network) here.
+If you need some help, just [tell me](http://github.com/randykinne/randykinne.github.io/issues).
