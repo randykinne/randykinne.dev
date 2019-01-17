@@ -16,13 +16,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>Kotlin - ***</li>
-	<li>Java - **</li>
-	<li>Python - ***</li>
-	<li>MySQL/MongoDB - **</li>
-	<li>Linux - **</li>
-	<li>Git - ****</li>
-	<li>Dart - *</li>
+	<li>Kotlin ★★★☆☆</li>
+	<li>Java ★★☆☆☆</li>
+	<li>Python ★★★☆☆</li>
+	<li>MySQL/MongoDB - ★★☆☆☆</li>
+	<li>Linux ★★☆☆☆</li>
+	<li>Git ★★★★☆</li>
+	<li>Dart ★★☆☆☆</li>
+	<li>C# ★★☆☆☆</li>
 </ul>
 
 <h2>Projects</h2>
