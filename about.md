@@ -4,14 +4,17 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I like Hockey. My favorite team is the Detroit Red Wings.</p>
+<p>My name is Randy Kinne. I've been writing code for over 5 years in a variety of languages. I play hockey and My favorite team is the Detroit Red Wings.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2>Hobbies</h2>
+
+<ul class="skill-list">
+	<li>Hockey</li>
+	<li>Programming</li>
+	<li>Sports</li>
+	<li>Eating</li>
+	<li>Photography</li>
+</ul>
 
 <h2>Skills</h2>
 
