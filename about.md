@@ -19,14 +19,15 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
+	<li>Git - ★★★★☆</li>
 	<li>Kotlin - ★★★☆☆</li>
 	<li>Java - ★★☆☆☆</li>
 	<li>Python - ★★★☆☆</li>
-	<li>MySQL/MongoDB - ★★☆☆☆</li>
+	<li>MySQL/MariaDB - ★★☆☆☆</li>
 	<li>Linux - ★★☆☆☆</li>
-	<li>Git - ★★★★☆</li>
-	<li>Dart - ★★☆☆☆</li>
-	<li>C# - ★★☆☆☆</li>
+	<li>Dart - ★☆☆☆☆</li>
+	<li>C# - ★☆☆☆☆</li>
+	<li>JavaScript# - ★☆☆☆☆</li>
 </ul>
 
 <h2>Projects</h2>
