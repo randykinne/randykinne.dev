@@ -1,0 +1,36 @@
+---
+title: "NRG"
+layout: post
+date: 2019-01-07 10:40 PM
+tag:
+- javascript
+- electron
+image: https://randykinne.github.io/assets/images/nexlydark.png
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Nexly Report Generator"
+category: project
+author: randykinne
+externalLink: false
+---
+
+
+ **NRG (Nexly Report Generator)**
+
+More information coming soon.
+
+---
+
+Skills utilized:
+
+- Electron
+- JavaScript
+- Git
+- HTML
+- CSS
+
+---
+
+[Check it out](http://github.com/randykinne/nrg) here.
+If a problem is found, [please create an issue.](http://github.com/randykinne/nrg/issues).
