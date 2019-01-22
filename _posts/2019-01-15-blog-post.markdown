@@ -9,16 +9,12 @@ tag:
 star: true
 category: blog
 author: randykinne
-description: School and Jail
+description: School
 ---
 
 ## School
 
 School started yesterday. I've switched from all online classes to some online classes in hopes that it will motivate me.
-
-## Jail
-
-Also, a week ago, my best friend went to jail. I'm not sure what's going to happen, but if I had to guess, it's going to be a date that I won't forget soon.
 
 ## Software Engineering
 
