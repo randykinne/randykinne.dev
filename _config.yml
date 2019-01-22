@@ -13,8 +13,8 @@ picture: assets/images/profile.jpg
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/resume.pdf
 
 url: https://randykinne.me
 # your url: http://USERNAME.github.io
@@ -51,7 +51,7 @@ github: randykinne
 #medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: rkinne@mcc.edu
+email: randy@randykinne.me
 
 authors:
     randykinne:
@@ -107,6 +107,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-admin
+  - jekyll-paginate
 
 jekyll-mentions:
     base_url: https://github.com
