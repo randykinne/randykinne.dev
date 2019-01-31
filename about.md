@@ -6,7 +6,7 @@ layout: page
 
 <h3>My name is Randy Kinne.</h3>
 
-<p>I've been writing code for over 5 years in a variety of languages. I play hockey and My favorite team is the Detroit Red Wings.</p>
+<p>I've been writing code for over 5 years in a variety of languages. I also play hockey and I am a fan of the Detroit Red Wings.</p>
 
 <h2>Hobbies</h2>
 
@@ -24,10 +24,10 @@ layout: page
 	<li>Git - ★★★★☆</li>
 	<li>Kotlin - ★★★☆☆</li>
 	<li>Python - ★★★☆☆</li>
-	<li>Java - ★★☆☆☆</li>
+    <li>HTML - ★★★☆☆</li>
+    <li>CSS - ★★★☆☆</li>
+	<li>Java - ★★★☆☆</li>
 	<li>MySQL/MariaDB - ★★☆☆☆</li>
-    <li>HTML - ★★☆☆☆</li>
-    <li>CSS - ★★☆☆☆</li>
 	<li>Linux - ★★☆☆☆</li>
 	<li>Dart - ★☆☆☆☆</li>
 	<li>C# - ★☆☆☆☆</li>
