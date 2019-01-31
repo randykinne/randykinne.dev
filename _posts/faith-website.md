@@ -1,5 +1,5 @@
 ---
-title: "Faith in Femininity Website <i class="fa fa-venus" aria-hidden="true"></i>"
+title: "Faith in Femininity Website"
 layout: post
 date: 2019-01-31 10:25 AM
 tag:
