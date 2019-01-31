@@ -39,7 +39,7 @@ twitter: randykinne_
 # google: mygoogle
 instagram: randy.kinne
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: randykinne
 # youtube: myyoutube
 spotify: 22aygedcbbixozm7s4bdd3nzy?si=qOzGcDH0R7a_XviobVhANg
 github: randykinne
@@ -59,18 +59,12 @@ authors:
         bio: Software Developer, Student, Athlete
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: 27kinne27
-    camrynjarczynski:
-        name: Camryn Jarczynski
-        bio: Randy's Girlfriend
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: 27kinne27
+        twitter: randykinne_
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 paginate: 5
@@ -87,7 +81,7 @@ blog: false
 read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: false
+show-tags: true
 
 # related posts inside a post?
 related: true
