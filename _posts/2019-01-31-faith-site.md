@@ -31,6 +31,3 @@ Skills utilized:
 - GitHub
 
 ---
-
-[Check it out](http://faith-in-femininity.github.io) here.
-If a problem is found, [please create an issue.](http://github.com/faith-in-femininity/faith-in-femininity.github.io/issues).

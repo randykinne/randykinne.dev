@@ -19,7 +19,7 @@ externalLink: false
 
  **Nexly Network - Game server software written in kotlin that allows custom game experiences in Minecraft**
 
-I work as a software developer for Nexly Network. I create custom game experiences that extend the minecraft stack. I have contributed almost 7,000 lines of code.
+I work as a software developer for Nexly Network. I create custom game experiences that extend the minecraft stack.
 
 ---
 
@@ -33,5 +33,4 @@ Skills utilized:
 
 ---
 
-[Check it out](http://nexly.network) here.
-If you need some help, just [tell me](http://github.com/randykinne/randykinne.github.io/issues).
+Check it out [here.](http://nexly.network)
