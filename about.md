@@ -8,26 +8,29 @@ layout: page
 
 <p>I've been writing code for over 5 years in a variety of languages. I also play hockey and I am a fan of the Detroit Red Wings.</p>
 
+Hello. This is a test.
+## Test
+
 <h2>Hobbies</h2>
 
 <ul class="skill-list">
 	<li>Hockey</li>
-	<li>Programming</li>
 	<li>Sports</li>
-	<li>Eating</li>
+	<li>Programming</li>
+	<li>Nutrition</li>
 	<li>Photography</li>
 </ul>
 
 <h2>Technology/Language Skills</h2>
 
 <ul class="skill-list">
-	<li>Git - ★★★★☆</li>
 	<li>Kotlin - ★★★☆☆</li>
+	<li>Java - ★★★☆☆</li>
 	<li>Python - ★★★☆☆</li>
     <li>HTML - ★★★☆☆</li>
     <li>CSS - ★★★☆☆</li>
-	<li>Java - ★★★☆☆</li>
-	<li>MySQL/MariaDB - ★★☆☆☆</li>
+	<li>Git - ★★★☆☆</li>
+	<li>SQL - ★★☆☆☆</li>
 	<li>Linux - ★★☆☆☆</li>
 	<li>Dart - ★☆☆☆☆</li>
 	<li>C# - ★☆☆☆☆</li>
