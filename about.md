@@ -4,12 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<h3>My name is Randy Kinne.</h3>
+# My name is Randy Kinne.
 
-<p>I've been writing code for over 5 years in a variety of languages. I also play hockey and I am a fan of the Detroit Red Wings.</p>
+I've been writing code for over 5 years in a variety of languages. I'm currently a full time student and software developer. I also play hockey and I am a fan of the Detroit Red Wings.
 
-Hello. This is a test.
-## Test
+---
 
 <h2>Hobbies</h2>
 
