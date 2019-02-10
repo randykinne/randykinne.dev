@@ -41,5 +41,4 @@ I've been writing code for over 5 years in a variety of languages. I'm currently
 <ul>
 	<li><a href="https://github.com/randykinne/twitter-subreddit-bot">twitter-subreddit-bot</a> Python</li>
 	<li><a href="https://github.com/randykinne/nrg">NRG (Nexly Report Generator)</a> JavaScript, Electron</li>
-	<li><a href="https://nexly.network/">Nexly Network</a> Kotlin, SQL</li>
 </ul>
