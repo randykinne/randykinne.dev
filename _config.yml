@@ -17,7 +17,6 @@ resume-external: false
 resume-url: assets/Kinne Resume February 2019.pdf
 
 url: https://randykinne.me
-# your url: http://USERNAME.github.io
 
 #permalink: /:title/
 
@@ -48,7 +47,7 @@ github: randykinne
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-#medium: medium
+medium: randykinne
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: randy@randykinne.me
@@ -58,7 +57,7 @@ authors:
         name: Randy Kinne
         bio: Software Developer, Student, Athlete
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/profile-color.png
         twitter: randykinne_
 
 # do you want a larger site? change the option below
@@ -100,7 +99,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-admin
   - jekyll-paginate
 
 jekyll-mentions:
