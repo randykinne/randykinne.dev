@@ -80,7 +80,7 @@ blog: false
 read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: false
+show-tags: true
 
 # related posts inside a post?
 related: true
