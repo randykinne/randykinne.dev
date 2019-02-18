@@ -7,12 +7,12 @@ tag:
 - test
 image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
 headerImage: false
-projects: true
+projects: false
 hidden: false # don't count this post in blog pagination
 description: "A big test post"
 category: project
 author: randykinne
-externalLink: https://medium.com/@samanthaming/tips-to-optimize-your-linkedin-profile-for-developers-77777c1e2c2e
+externalLink: false
 ---
 
 
