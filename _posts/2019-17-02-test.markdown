@@ -1,25 +1,29 @@
 ---
 title: "Test Post"
 layout: post
-date: 2018-12-10 10:40 PM
+date: 2019-18-2 10:40 PM
 tag:
-- reddit
-- twitter
-- bot
+- testing
+- test
+- 123
 image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
-headerImage: true
+headerImage: false
 projects: true
 hidden: false # don't count this post in blog pagination
 description: "A bot for the Detroit RedWings Subreddit"
 category: project
 author: randykinne
-externalLink: true
+externalLink: https://medium.com/@samanthaming/tips-to-optimize-your-linkedin-profile-for-developers-77777c1e2c2e
 ---
 
 
- **twitter-subreddit-bot**
+ **Just a test post**
 
 After many reddit users on the r/DetroitRedWings subreddit posted about prospects, I decided to combine my love for the game of hockey and my passion for writing code into a single project called DRWProspectBot. This has since evolved into twitter-subreddit-bot, an attempt to make the project more useful.
+
+{% highlight html %}
+<p>TEST</p>
+{% endhighlight %} 
 
 ---
 
