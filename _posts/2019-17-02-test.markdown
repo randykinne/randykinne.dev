@@ -7,7 +7,7 @@ tag:
 - test
 image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
 headerImage: false
-projects: false
+projects: true
 hidden: false # don't count this post in blog pagination
 description: "A big test post"
 category: project
