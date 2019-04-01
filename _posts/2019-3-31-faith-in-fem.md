@@ -26,7 +26,7 @@ The idea for a new Faith in Femininity website started as an exploration to util
 
 The new site features a beautiful and responsive 1-page site focused on ease of use, readability, and speed.
 
-Anybody interested in a personal website can contact me at [hello@randykinne.me] (mailto: hello@randykinne.me)
+Anybody interested in a personal website can contact me at [hello@randykinne.me](mailto: hello@randykinne.me)
 
 ---
 
@@ -44,4 +44,4 @@ Technologies utilized:
 
 ---
 
-Please check it out [here] (https://faithinfemininity.org/).
+Please check it out [here](https://faithinfemininity.org/).
