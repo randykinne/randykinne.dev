@@ -27,12 +27,12 @@ I've been writing code for over 5 years in a variety of languages. I'm currently
 	<li>Java - ★★★☆☆</li>
 	<li>Python - ★★★☆☆</li>
     <li>HTML - ★★★☆☆</li>
+	<li>C# - ★★★☆☆</li>
     <li>CSS - ★★★☆☆</li>
 	<li>Git - ★★★☆☆</li>
 	<li>SQL - ★★☆☆☆</li>
 	<li>Linux - ★★☆☆☆</li>
 	<li>Dart - ★☆☆☆☆</li>
-	<li>C# - ★☆☆☆☆</li>
 	<li>JavaScript# - ★☆☆☆☆</li>
 </ul>
 
@@ -40,5 +40,5 @@ I've been writing code for over 5 years in a variety of languages. I'm currently
 
 <ul>
 	<li><a href="https://github.com/randykinne/twitter-subreddit-bot">twitter-subreddit-bot</a> Python</li>
-	<li><a href="https://github.com/randykinne/nrg">NRG (Nexly Report Generator)</a> JavaScript, Electron</li>
+	<li><a href="https://faithinfemininity.org">Faith in Femininity Website</a> Web Development</li>
 </ul>
