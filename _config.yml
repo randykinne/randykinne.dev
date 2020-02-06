@@ -16,7 +16,7 @@ resume: true
 resume-external: false
 resume-url: assets/RK Resume August 2019.pdf
 
-url: https://randykinne.me
+url: https://randykinne.dev
 
 #permalink: /:title/
 
@@ -50,7 +50,7 @@ github: randykinne
 medium: randykinne
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: randy@randykinne.me
+email: randykinnedev@gmail.com
 
 authors:
     randykinne:
