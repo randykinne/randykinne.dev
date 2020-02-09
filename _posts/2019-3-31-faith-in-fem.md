@@ -7,7 +7,7 @@ tag:
 - css
 - github
 - web
-image: https://randykinne.dev/assets/images/Faith-resized.png
+image: assets/images/Faith-resized.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
