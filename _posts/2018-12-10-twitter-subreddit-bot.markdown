@@ -6,7 +6,7 @@ tag:
 - reddit
 - twitter
 - bot
-image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
+image: https://randykinne.dev/assets/images/profile-color.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
