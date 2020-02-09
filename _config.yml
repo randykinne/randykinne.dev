@@ -1,9 +1,9 @@
 # main text of home
 name: Randy Kinne
-bio: Software Developer, Student, Athlete.
+bio: IT Consultant
 
 # twitter summary info
-description: About Randy Kinne - Software Developer
+description: About Randy Kinne - IT Consultant
 
 # if it's an external image, update below for true
 # better with square images
@@ -36,18 +36,15 @@ disqus:
 #facebook: myfacebook
 twitter: randykinne_
 # google: mygoogle
-instagram: randy.kinne
 # pinterest: mypinterest
 linkedin: randykinne
 # youtube: myyoutube
-spotify: 22aygedcbbixozm7s4bdd3nzy?si=qOzGcDH0R7a_XviobVhANg
 github: randykinne
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: randykinne
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: randykinnedev@gmail.com
@@ -55,7 +52,7 @@ email: randykinnedev@gmail.com
 authors:
     randykinne:
         name: Randy Kinne
-        bio: Software Developer, Student, Athlete
+        bio: Problem Solver
         external-image: false
         picture: assets/images/profile-color.png
         twitter: randykinne_
