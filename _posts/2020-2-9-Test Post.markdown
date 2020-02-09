@@ -6,7 +6,7 @@ tag:
 - jekyll
 - test
 - post
-image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
+image: https://randykinne.dev/assets/images/Faith-resized.png
 headerImage: true
 hidden: false # don't count this post in blog pagination
 description: "A test post to check formatting."

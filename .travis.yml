@@ -19,3 +19,7 @@ addons:
     - libcurl4-openssl-dev # required to avoid SSL errors
 
 sudo: false # route your build to the container-based infrastructure for a faster build
+
+branches:
+  only:
+  - master
