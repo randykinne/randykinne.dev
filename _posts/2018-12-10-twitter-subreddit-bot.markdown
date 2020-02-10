@@ -6,7 +6,7 @@ tag:
 - reddit
 - twitter
 - bot
-image: assets/images/profile-color.png
+image: https://randykinne.dev/assets/images/profile-color.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
