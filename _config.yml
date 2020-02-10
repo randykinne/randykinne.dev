@@ -1,6 +1,6 @@
 # main text of home
 name: Randy Kinne
-bio: IT Consultant
+bio: IT Consultant, Software Engineer
 
 # twitter summary info
 description: About Randy Kinne - IT Consultant
@@ -52,7 +52,7 @@ email: randykinnedev@gmail.com
 authors:
     randykinne:
         name: Randy Kinne
-        bio: Problem Solver
+        bio: IT Consultant, Software Engineer
         external-image: false
         picture: assets/images/profile-color.png
         twitter: randykinne_
