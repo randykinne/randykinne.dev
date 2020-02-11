@@ -12,7 +12,7 @@ picture: assets/images/profile-color.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: false
 resume-url: assets/RK Resume August 2019.pdf
 
@@ -98,6 +98,7 @@ plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-mentions
+  - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://github.com
