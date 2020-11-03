@@ -1,9 +1,9 @@
 # main text of home
 name: Randy Kinne
-bio: IT Consultant, Software Engineer
+bio: Software Engineer
 
 # twitter summary info
-description: About Randy Kinne - IT Consultant
+description: About Randy Kinne
 
 # if it's an external image, update below for true
 # better with square images
@@ -21,7 +21,7 @@ url: https://randykinne.dev
 #permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-134232968-1'
+analytics-google: "UA-134232968-1"
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -29,8 +29,8 @@ analytics-google: 'UA-134232968-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [] # only show disqus for posts that have these categories
+    shortname: mydisqus # enter this from your disqus account
+    categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
@@ -52,7 +52,7 @@ email: randykinnedev@gmail.com
 authors:
     randykinne:
         name: Randy Kinne
-        bio: IT Consultant, Software Engineer
+        bio: Software Engineer
         external-image: false
         picture: assets/images/profile-color.png
         twitter: randykinne_
@@ -92,13 +92,13 @@ show-author: true
 animation: true
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-paginate
-  - jekyll-mentions
-  - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-paginate
+    - jekyll-mentions
+    - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://github.com

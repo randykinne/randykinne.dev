@@ -2,11 +2,12 @@
 title: About
 layout: page
 ---
+
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 # Randy Kinne.
 
-Experienced IT Consultant with a demonstrated history of developing and engineering software solutions to solve business problems. Skilled in programming, development operations, system design, testing, debugging, problem solving, incident response, change management, written and verbal communication, and consulting, teaching, and mentoring others.
+Experienced problem solver with a demonstrated history of developing and engineering software solutions to solve business problems. Champion of observability and DevOps methodologies.
 
 ---
 
