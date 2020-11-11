@@ -1,6 +1,6 @@
 # main text of home
 name: Randy Kinne
-bio: Software Engineer
+bio: Backend Engineering Blog
 
 # twitter summary info
 description: About Randy Kinne
@@ -47,7 +47,7 @@ github: randykinne
 # reddit: username
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: randykinnedev@gmail.com
+email: me@randykinne.dev
 
 authors:
     randykinne:
