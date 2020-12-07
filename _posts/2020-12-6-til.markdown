@@ -1,0 +1,22 @@
+---
+title: "TIL"
+layout: post
+date: 2020-12-6 11:15 PM
+tag:
+- blog
+hidden: false # don't count this post in blog pagination
+description: "Today I learned: a series"
+category: blog
+author: randykinne
+externalLink: false
+---
+
+ **TIL**
+
+ TIL (short for *today, I learned*) is going to be a daily blog where I briefly write about something I've learned. 
+ 
+ **Why?**
+
+ I tried writing longer blog posts, but writing is hard. The easiest way to get through it is to get started. By keeping the criteria both highly achievable and open-ended (a single thing that I've learned on any given day about any topic), hopefully it becomes easier.
+
+ My larger goal is to write longer blog posts to really dive into topics, but I'm hoping that will be easier as I iterate through this. It's also likely that daily TIL posts will give me plenty of ideas to choose from to dive into.
