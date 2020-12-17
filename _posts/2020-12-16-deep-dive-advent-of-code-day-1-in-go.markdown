@@ -32,7 +32,17 @@ After quickly looking at our input, there are no repeating numbers, so one of ou
 
 ## Solution
 
-If we split our input into two groups, one greater than half of `2020` and one less than half of `2020`, we can create two groups which each contain one of the answers.
+If we split our input into two groups, one greater than half of `2020` and one less than half of `2020`, we can create two groups which each contain one of the answers and then compare each number
+
+We can break down our total solution into the following steps:
+1. Parse the input
+2. Split the input into two groups, one higher than half of `2020` and one lower than half
+3. Find the value from each which sum to `2020`
+
+Depending on how we find the value from group, we may need to add a few steps to make it easier to find the value.
+
+## Parsing input
+
 
 **Brute-force Method (Linear Search)**
 
@@ -50,12 +60,13 @@ func FindPair(x int, a []int) (int, int) {
         }
     }
 }
-
 {% endhighlight %} 
+
+<img class="image" src="https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=text%2Fx-go&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520FindPair%2520of%2520integers%2520that%2520sum%2520to%25202020%250Afunc%2520FindPair%28x%2520int%252C%2520a%2520%255B%255Dint%29%2520%28int%252C%2520int%29%2520%257B%250A%2520%2520%2520%2520for%2520_%252C%2520i%2520%253A%253D%2520range%2520greater_than_list%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520for%2520_%252C%2520j%2520%253A%253D%2520range%2520less_than_list%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520if%2520i%2520%252B%2520j%2520%253D%253D%25202020%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520return%2520i%252C%2520j%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%250A%257D" alt="O(N^2)">
 
 This solution would work on small inputs, but would quickly take too long to compute as the compute-time would grow exponentially at a rate of [O(n^2)](https://developerinsider.co/big-o-notation-explained-with-examples/) compared to a linearly-growing input.
 
-![Markdown Image][https://lukasmestan.com/assets/images/o-n2.png]
+<img class="image" src="https://lukasmestan.com/assets/images/o-n2.png" alt="O(N^2)">
 <figcaption class="caption">Just look at this graph.</figcaption>
 
 In other words, this is not a scalable solution and would quickly take too long to compute if the size of our input was large.
@@ -69,7 +80,6 @@ To summarize, rather than search each object one by one to find a match, we take
 Luckily for us, Go's `sort` package includes a binary search implementation that we can use to find our two values:
 
 {% highlight go %} 
-
 // Find index of x in sorted array using binary search
 func Find(x int, arr []int) int {
 	i := sort.Search(len(arr), func(i int) bool { return arr[i] >= x })
