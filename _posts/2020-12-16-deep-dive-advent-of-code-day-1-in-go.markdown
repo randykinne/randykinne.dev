@@ -55,7 +55,7 @@ func FindPair(x int, a []int) (int, int) {
 
 This solution would work on small inputs, but would quickly take too long to compute as the compute-time would grow exponentially at a rate of [O(n^2)](https://developerinsider.co/big-o-notation-explained-with-examples/) compared to a linearly-growing input.
 
-![O(n^2) graph][https://lukasmestan.com/assets/images/o-n2.png]
+![Markdown Image][https://lukasmestan.com/assets/images/o-n2.png]
 <figcaption class="caption">Just look at this graph.</figcaption>
 
 In other words, this is not a scalable solution and would quickly take too long to compute if the size of our input was large.
