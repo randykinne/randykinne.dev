@@ -1,5 +1,5 @@
 ---
-title: "Advent of Code Day 1 in Go"
+title: "2020 Advent of Code Day 1 in Go"
 layout: post
 date: 2020-12-16 11:00 PM
 tag:
@@ -180,6 +180,8 @@ func FindPair(i1 []int, i2 []int) (int1 int, int2 int) {
 Go's built-in `map` implements a hash table, which for integers means that it would greatly improve our lookup time to find matches.
 
 This improves our pair-finding from O(N^2) -> O(logN) -> O(1) effectively.
+
+I have not yet implemented this solution.
 
 ## Benchmarks
 
