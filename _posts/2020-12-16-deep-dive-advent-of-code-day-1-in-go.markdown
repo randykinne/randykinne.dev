@@ -43,6 +43,65 @@ Depending on how we find the value from group, we may need to add a few steps to
 
 ## Parsing input
 
+Fortunately, Go's `ioutil` package has a nice built-in way to read our input file and convert it to an array of bytes.
+
+{% highlight go %}
+data, err := ioutil.ReadFile("input")
+if err != nil {
+    panic(err)
+}
+{% endhighlight %}
+
+We still have to convert our array of bytes into numbers that we can perform mathematical operations on and compare, so we'll create a function to do that.
+
+To summarize this function, we're inputting a byte array, converting the byte array into a single string, splitting the string by line, then creating an integer array of the same size as the number of lines.
+
+Then, we're looping through each line and checking to make sure that the line isn't empty. After, we're converting each line from a string to an integer and checking that there are no errors. Finally, we're setting the value of our current index in the integer array to our new integer value and then returning the integer array once the loop is completed.
+
+{% highlight go %}
+// ConvertByteArrToIntArr converts a byte arr to int arr
+func ConvertByteArrToIntArr(b []byte) []int {
+	lines := strings.Split(string(b), "\n")
+	nums := make([]int, len(lines))
+	for i, l := range lines {
+		if len(l) == 0 {
+			continue
+		}
+		n, err := strconv.Atoi(l)
+		if err != nil {
+            panic(err)
+        }
+		nums[i] = n
+	}
+	return nums
+}
+{% endhighlight %}
+
+We could do this in a less explicit way using `bufio`, Go standard library's buffered I/O, but one of my favorite parts about Go is just how explicit it is.
+
+## Categorizing our numbers
+
+Now that we have a single array of integers that represents our input, we need to separate them into two groups, one being higher than half of `2020` and one being lower.
+
+{% highlight go %}
+// SplitIntArrToUpperAndLower splits an array into two arrays that represent the above and below a target
+func SplitIntArrToUpperAndLower(target int, ints []int) ([]int, []int) {
+	lower := make([]int, 0)
+	upper := make([]int, 0)
+	for _, val := range ints {
+		if val <= target {
+			lower = append(lower, val)
+		} else {
+			upper = append(upper, val)
+		}
+	}
+	return lower, upper
+}
+{% endhighlight %}
+
+This function splits a single array into two and conditionally putting each integer into the upper or lower array. As a bonus, the function input is a sorted array, both of the output arrays will also be sorted.
+
+## Finding our pair of numbers
 
 **Brute-force Method (Linear Search)**
 
@@ -62,20 +121,35 @@ func FindPair(x int, a []int) (int, int) {
 }
 {% endhighlight %} 
 
-<img class="image" src="https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=text%2Fx-go&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520FindPair%2520of%2520integers%2520that%2520sum%2520to%25202020%250Afunc%2520FindPair%28x%2520int%252C%2520a%2520%255B%255Dint%29%2520%28int%252C%2520int%29%2520%257B%250A%2520%2520%2520%2520for%2520_%252C%2520i%2520%253A%253D%2520range%2520greater_than_list%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520for%2520_%252C%2520j%2520%253A%253D%2520range%2520less_than_list%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520if%2520i%2520%252B%2520j%2520%253D%253D%25202020%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520return%2520i%252C%2520j%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520%257D%250A%257D" alt="O(N^2)">
-
 This solution would work on small inputs, but would quickly take too long to compute as the compute-time would grow exponentially at a rate of [O(n^2)](https://developerinsider.co/big-o-notation-explained-with-examples/) compared to a linearly-growing input.
 
 <img class="image" src="https://lukasmestan.com/assets/images/o-n2.png" alt="O(N^2)">
 <figcaption class="caption">Just look at this graph.</figcaption>
 
-In other words, this is not a scalable solution and would quickly take too long to compute if the size of our input was large.
+In other words, this is not a scalable solution and would quickly take too long to compute if the size of our input was large. Fortunately for us, with this problem it's not, so we end up with our pair of numbers and can use this to quickly end up with a solution.
 
 **Binary Search**
 
-Generally the best-accepted alternative to linear search is using binary search.
+Generally, a well-accepted alternative to linear search is using binary search.
 
 To summarize, rather than search each object one by one to find a match, we take a sorted array and compare the item we're looking for with the object in the middle of the array. Depending on whether our object is greater than or less than the middle, we throw away the known incorrect half of the array and repeat the search using the correct half of the array.
+
+If we are searching for values, we have to make one side equal to the other. We can do this by creating a `Map` function which we'll use to return custom values of the items in one of our arrays. We'll utilize this similar to a lambda in Python, which is an unnamed function, where we're subtracting.
+
+In this example, `subtracted` is an array of integers where the values are the difference between 2020 and the lower number. Because the lower number plus the higher number equals `2020`, the `subtracted` array can be used in our binary search to find the same item in both.
+
+{% highlight go %} 
+subtracted := Map(lower_array, func(i int) int { return 2020 - i })
+
+// Map the result of a function to each value of an int arr
+func Map(input []int, f func(int) int) []int {
+	result := make([]int, len(input))
+	for i, val := range input {
+		result[i] = f(val)
+	}
+	return result
+}
+{% endhighlight %}
 
 Luckily for us, Go's `sort` package includes a binary search implementation that we can use to find our two values:
 
@@ -100,6 +174,12 @@ func FindPair(i1 []int, i2 []int) (int1 int, int2 int) {
 	return 0, 0
 }
 {% endhighlight %} 
+
+## Hashmaps
+
+Go's built-in `map` implements a hash table, which for integers means that it would greatly improve our lookup time to find matches.
+
+This improves our pair-finding from O(N^2) -> O(logN) -> O(1) effectively.
 
 ## Benchmarks
 
