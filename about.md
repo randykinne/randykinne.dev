@@ -7,7 +7,8 @@ layout: page
 
 # Randy Kinne.
 
-Experienced problem solver with a demonstrated history of developing and engineering software solutions to solve business problems. Champion of observability and DevOps methodologies.
+- Pizza lover
+- Tech agnostic problem solver
 
 ---
 
