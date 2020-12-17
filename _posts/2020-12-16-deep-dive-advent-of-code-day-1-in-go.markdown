@@ -3,7 +3,9 @@ title: "2020 Advent of Code Day 1 in Go"
 layout: post
 date: 2020-12-16 11:00 PM
 tag:
-- blog
+- go
+- advent of code
+- toy problem
 hidden: false # don't count this post in blog pagination
 description: "A deep dive into solving 2020 AoC day 1 with Go"
 category: blog
