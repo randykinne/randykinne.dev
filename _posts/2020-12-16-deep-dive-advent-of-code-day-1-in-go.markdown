@@ -5,7 +5,7 @@ date: 2020-12-16 11:00 PM
 tag:
 - blog
 hidden: false # don't count this post in blog pagination
-description: "A deep dive into solving AoC day 1 with Go"
+description: "A deep dive into solving 2020 AoC day 1 with Go"
 category: blog
 author: randykinne
 externalLink: false
@@ -32,7 +32,7 @@ After quickly looking at our input, there are no repeating numbers, so one of ou
 
 ## Solution
 
-If we split our input into two groups, one greater than half of `2020` and one less than half of `2020`, we can create two groups which each contain one of the answers and then compare each number
+If we split our input into two groups, one greater than half of `2020` and one less than half of `2020`, we can create two groups which each contain one of the answers and then compare each number.
 
 We can break down our total solution into the following steps:
 1. Parse the input
