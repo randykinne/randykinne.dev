@@ -30,6 +30,8 @@ To find the current machine's IP, we could use the `ip` tool.
 ip [OPTION] OBJECT {COMMAND | help}
 ```
 
-In our case, we used `ip a` to display all network devices.
+In our case, we used `ip a` (or `ip addr`) to display all network devices.
 
-[img](https://www.cyberciti.biz/media/new/faq/2012/01/ip-command-show-address-ethernet-interface.png)
+![img](https://www.cyberciti.biz/media/new/faq/2012/01/ip-command-show-address-ethernet-interface.png)
+
+In the image above, various network interfaces are displayed as well as their associated addresses. 
