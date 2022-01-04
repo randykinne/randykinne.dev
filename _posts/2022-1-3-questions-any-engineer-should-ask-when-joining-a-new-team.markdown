@@ -16,7 +16,7 @@ externalLink: false
 
  **5 Questions a Software Engineer Should Ask When Joining a New Team**
 
-No two software development teams work exactly the same. Within a single company, things can vary considerably from team to team. Joining a new team is usually very exciting, but can also be intimidating if the onboarding process doesn't include the answers to these questions. In most of my onboarding experiences, these answers aren't provided for me, I've had to seek them out. 
+No two software development teams work exactly the same. Within a single company, things can vary considerably from team to team. Joining a new team is usually very exciting, but can also be intimidating if the onboarding process doesn't include the answers to these questions. In most of my onboarding experiences, these answers weren't provided for me, I've had to seek them out. 
 
 In my opinion, there are many more questions you should ask in order to have the highest likelihood of being successful in your new role, but here are the top 5:
  
