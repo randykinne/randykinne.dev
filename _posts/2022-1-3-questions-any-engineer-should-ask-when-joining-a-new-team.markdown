@@ -34,7 +34,7 @@ If the struggles are technical in nature: scaling, reliability, code quality, et
 
 In similar, if the struggles are collaboration or process based, there are also lots of free resources around improving collaboration, communication, or various process issues (code review bottlenecks, for example). 
 
-Note that it's usually not diplomatic to join a new team and immediately start making changes, which is why you should start small and build rapport with a one or two other established team members. Then, approach them individually what they think of the idea. It's possible it may have been discussed already or thought of, or they may point out something that you may have missed. 
+Note that it's usually not diplomatic to join a new team and immediately start making changes, which is why you should start small and build rapport with one or two other established team members. Then, approach them individually what they think of the idea. It's possible it may have been discussed already or thought of, or they may point out something that you may have missed. 
 
 But if they like it, congratulations - you've just got buy-in! If the team environment is very open and non-judgemental, you may be able to suggest it directly to the team, or you may want to ask that person directly for sponsorship. Sponsorship is a great way to execute on your ideas, as that person is effectively joining your cause. 
 
