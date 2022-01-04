@@ -7,7 +7,7 @@ layout: page
 
 # Randy Kinne
 
-### Currently Senior Software Engineer @ Mailchimp, formerly @ Cision
+### Currently: Software Engineer @ Cision
 
 Some facts about me:
 - I love meeting new people
