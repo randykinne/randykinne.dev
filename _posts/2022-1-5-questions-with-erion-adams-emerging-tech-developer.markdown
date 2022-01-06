@@ -7,7 +7,7 @@ tag:
 - software
 - internships
 hidden: false # don't count this post in blog pagination
-description: "Running benchmark tests in Go explained"
+description: "Interview with Emerging Tech Developer Erion Adams on getting into tech, the challenges she's faced, and continuous learning"
 category: blog
 author: randykinne
 externalLink: false
