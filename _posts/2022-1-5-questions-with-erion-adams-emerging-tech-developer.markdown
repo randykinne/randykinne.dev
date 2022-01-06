@@ -13,7 +13,7 @@ author: randykinne
 externalLink: false
 ---
 
-# 10 Questions with Erion Adams, Emerging Tech Developer
+![Erion Adams](https://media-exp1.licdn.com/dms/image/C4D03AQGtnn-K02h0Xw/profile-displayphoto-shrink_800_800/0/1639766336512?e=1646870400&v=beta&t=6NwDdVh7QjP84LU9n-Qnmh3bP-xGBp58OpZwr9EWJZA)
 
 ### Tell me a little about your current role: where you work, your title and generally what sort of work you and your team do?
 
@@ -52,5 +52,5 @@ I would probably try being a real estate agent somewhere like Los Angeles. It's 
 ### What are some resources (books, blogs, people, etc.) you've learned from?
 Tech groups on Facebook, tech channels and career channels on Youtube, my team at Carnevale, other developers I know through networking, and of course Randy Kinne.
 
-
+You can find Erion on [LinkedIn](https://www.linkedin.com/in/erion-adams-53728816b/)
 
