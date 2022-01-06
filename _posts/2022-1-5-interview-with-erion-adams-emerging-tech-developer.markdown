@@ -1,5 +1,5 @@
 ---
-title: "10 Questions with Erion Adams, Emerging Tech Developer"
+title: "Interview with Erion Adams, Emerging Tech Developer"
 layout: post
 date: 2022-1-5 8:00 PM
 tag:
